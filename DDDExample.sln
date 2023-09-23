@@ -5,19 +5,21 @@ VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDDExample.ValueObjects", "DDDExample.ValueObjects\DDDExample.ValueObjects.csproj", "{4C69AB50-9D22-4EBD-AF17-BDDDE1615D00}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDDExample.ValueObjects.TestConsole", "DDDExample.ValueObjects.TestConsole\DDDExample.ValueObjects.TestConsole.csproj", "{AEF5155C-AD4C-4448-9FCE-889914B7112D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDDExample.ValueObjects.TestConsole", "DDDExample.ValueObjects.TestConsole\DDDExample.ValueObjects.TestConsole.csproj", "{AEF5155C-AD4C-4448-9FCE-889914B7112D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDDExample.Entities", "DDDExample.Entities\DDDExample.Entities.csproj", "{37F06B2B-AF20-44D6-9DD5-A63B3846480E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDDExample.Entities", "DDDExample.Entities\DDDExample.Entities.csproj", "{37F06B2B-AF20-44D6-9DD5-A63B3846480E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DomainEvents", "DomainEvents", "{12448960-D9A6-4801-888A-D934D2BB647B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDDExample.DomainEvents.Frameworks", "DDDExample.DomainEvents\DDDExample.DomainEvents.Frameworks.csproj", "{BA02A753-4987-4591-8641-1D9D0E53C7EC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDDExample.DomainEvents.Frameworks", "DDDExample.DomainEvents\DDDExample.DomainEvents.Frameworks.csproj", "{BA02A753-4987-4591-8641-1D9D0E53C7EC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDDExample.DomainEvents.CoreDomain", "DDDExample.DomainEvents.CoreDomain\DDDExample.DomainEvents.CoreDomain.csproj", "{66E0BC36-1A61-43B7-A944-F932234E995C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDDExample.DomainEvents.CoreDomain", "DDDExample.DomainEvents.CoreDomain\DDDExample.DomainEvents.CoreDomain.csproj", "{66E0BC36-1A61-43B7-A944-F932234E995C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDDExample.DomainEvents.ApplicationService", "DDDExample.DomainEvents.ApplicationService\DDDExample.DomainEvents.ApplicationService.csproj", "{300D3988-FC9C-4C7E-A72A-A36B29E76F30}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDDExample.DomainEvents.ApplicationService", "DDDExample.DomainEvents.ApplicationService\DDDExample.DomainEvents.ApplicationService.csproj", "{300D3988-FC9C-4C7E-A72A-A36B29E76F30}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDDExample.DomainEvents.EndPoint", "DDDExample.DomainEvents.EndPoint\DDDExample.DomainEvents.EndPoint.csproj", "{0913D4C4-9790-4B33-BBF3-D459B5E878B7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDDExample.DomainEvents.EndPoint", "DDDExample.DomainEvents.EndPoint\DDDExample.DomainEvents.EndPoint.csproj", "{0913D4C4-9790-4B33-BBF3-D459B5E878B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDDExample.Entities.TestConsole", "DDDExample.Entities.Console\DDDExample.Entities.TestConsole.csproj", "{C94A73FE-532F-4A08-9B86-049B7C51FC47}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,6 +55,10 @@ Global
 		{0913D4C4-9790-4B33-BBF3-D459B5E878B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0913D4C4-9790-4B33-BBF3-D459B5E878B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0913D4C4-9790-4B33-BBF3-D459B5E878B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C94A73FE-532F-4A08-9B86-049B7C51FC47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C94A73FE-532F-4A08-9B86-049B7C51FC47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C94A73FE-532F-4A08-9B86-049B7C51FC47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C94A73FE-532F-4A08-9B86-049B7C51FC47}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
